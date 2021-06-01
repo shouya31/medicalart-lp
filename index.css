@@ -10,11 +10,11 @@ section{
 
 header{
   background-color: black;
-  height: 80px;
+  height: 70px;
   width: 100%;
   position: fixed;
   top: 0px;
-  padding: 15px 0px 15px 50px;  
+  padding: 10px 0px 10px 50px;  
 }
 
 li{
@@ -31,4 +31,6 @@ button {
     line-height:0;
     overflow:visible;
     cursor:pointer;
+    position: relative;
+    top: -10px;
 }
