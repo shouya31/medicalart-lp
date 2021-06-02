@@ -5,7 +5,6 @@
 @tailwind utilities;
 
 section{
-    margin: 50px 0px;
 }
 
 header{
@@ -14,7 +13,8 @@ header{
   width: 100%;
   position: fixed;
   top: 0px;
-  padding: 10px 0px 10px 50px;  
+  padding: 10px 0px 10px 70px;  
+  z-index: 9999;
 }
 
 li{
@@ -34,3 +34,7 @@ button {
     position: relative;
     top: -10px;
 }
+
+#map {
+    background-color: grey;
+  }
