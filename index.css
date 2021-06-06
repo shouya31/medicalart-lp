@@ -52,10 +52,10 @@ button {
   color: #212121;
 }
 .service-explain{
-  height: 1500px;
+  
 }
 .bg-about{
-  background-image: url(./pubulic/bg-about.jpg);
+  background-image: url(./pubulic/bg-gold.png);
   padding: 15px 80px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -69,8 +69,6 @@ button {
 
 .bg-service-explain{
   background: #FFFDF4;
-  border-image: url('./pubulic/service-border.jpg');
-  border-width: 5px 5px 5px 5px;
 }
 
 .service-explain-title{
@@ -86,23 +84,44 @@ button {
   margin: 8px 0px;
 
 }
-
-.service-explain-title-sp{
-  text-shadow: 0px 2px 10px;
-  font-family: YuMincho;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 160%;
-  /* or 29px */
-  
-  text-align: center;
-  letter-spacing: 0.08em;
-  
-  color: #826651;
-
+.bg-gold-title{
+  height: 50px;
+  background-size: contain;
+  width: 60%;
+  margin: auto;
+  background-repeat: no-repeat;
 }
 
+.service-explain-title-sp{
+  font-family: YuMincho;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+text-align: center;
+letter-spacing: 0.08em;
+
+color: #826651;
+
+/* ブラウンB */
+
+text-shadow: 0px 2px 10px #A88C42;
+
+  font-weight:lighter;
+}
+
+.service-explain-content{
+  /* background: linear-gradient(49.97deg, #AD7421 2.26%, #B7822F 9.51%, #D8B25D 36.54%, #E5C46F 50%, #D8B25D 63.46%, #B7822F 90.48%, #AD7421 97.74%); */
+  border: 4px solid #D8B25D;
+  padding: 5px;
+}
+
+.service-explain-wrap{
+  background: #FFFDF4;
+  border: 4px solid #D8B25D;
+  padding: 5px;}
 
 .service-explain-sp{
   font-family: YuMincho;
@@ -178,6 +197,19 @@ button {
   line-height: 170%;
   /* or 31px */
 
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+.menu-explain-text-sp{
+  font-family: YuGothic;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 170%;
+  /* or 24px */
+
+  text-align: justify;
   letter-spacing: 0.05em;
 
   color: #000000;
@@ -298,6 +330,21 @@ color: #222222;
 .faq-a-bg{
   background: #FAFAFA;
   padding:24px;
+}
+
+.attention-content{
+  border: 4px solid #D8B25D;
+  padding: 5px;
+}
+
+.attention-wrap{
+  background: linear-gradient(49.97deg, #AD7421 2.26%, #B7822F 9.51%, #D8B25D 36.54%, #E5C46F 50%, #D8B25D 63.46%, #B7822F 90.48%, #AD7421 97.74%);
+}
+
+.attention-ele{
+  background: #FFFDF4;
+  border: 4px solid #D8B25D;
+
 }
 
 .attention-line{
