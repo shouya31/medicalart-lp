@@ -185,6 +185,8 @@ button {
 .flow-element{
   height: 1400px;
 }
+.flow-element-sp{
+}
 .flow-text{
   font-family: YuGothic;
   font-style: normal;
@@ -193,6 +195,21 @@ button {
   line-height: 150%;
   /* or 29px */
 
+  letter-spacing: 0.08em;
+
+  color: #000000;
+}
+
+
+.flow-text-sp{
+  font-family: YuGothic;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+
+  text-align: justify;
   letter-spacing: 0.08em;
 
   color: #000000;
@@ -262,6 +279,18 @@ color: #222222;
 
   color: #000000;
 }
+.attention-title-sp{
+  font-family: YuMincho;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+letter-spacing: 0.08em;
+
+color: #000000;
+}
 .attention-text{
   font-family: YuMincho;
   font-style: normal;
@@ -272,6 +301,16 @@ color: #222222;
 
   letter-spacing: 0.08em;
 
+  color: #000000;
+}
+.attention-text-sp{
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 220%;
+  /* or 31px */
+  letter-spacing: 0.05em;
   color: #000000;
 }
 
