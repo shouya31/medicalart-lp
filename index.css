@@ -35,6 +35,289 @@ button {
     top: -10px;
 }
 
+.pc-text-font {
+  font-family: YuMincho;
+  font-size: 18px;
+  font-size: 18px;
+  line-height: 180%;
+  font-weight: 500;
+}
+.introduction-sp-text{
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  letter-spacing: 0.08em;
+  color: #212121;
+}
+.service-explain{
+  height: 1500px;
+}
+.bg-about{
+  background-image: url(./pubulic/bg-about.jpg);
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.wrap-service-explain{
+  border-image: url('./pubulic/service-border-radium.jpg');
+  border-image-slice: 33%;
+	border-image-repeat: repeat;
+	border-image-width: 13px;
+}
+
+.bg-service-explain{
+  background: #FFFDF4;
+  border-image: url('./pubulic/service-border.jpg');
+  border-width: 5px 5px 5px 5px;
+}
+
+.service-explain-title{
+  color: #826651;
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-shadow: 0px 2px 10px #A88C42;
+
+}
+
+.service-explain-title-sp{
+  text-shadow: 0px 2px 10px;
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+  
+  text-align: center;
+  letter-spacing: 0.08em;
+  
+  color: #826651;
+
+}
+
+
+.service-explain-sp{
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+  
+  text-align: center;
+  letter-spacing: 0.08em;
+  
+  color: #826651;
+
+}
+.service-explain-title-text{
+  font-family: YuGothic;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+  padding: 20px 60px;
+  letter-spacing: 0.08em;
+  color: #222222;
+}
+
+.service-explain-text-sp{
+  font-family: YuGothic;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 200%;
+  /* or 28px */
+  
+  text-align: justify;
+  letter-spacing: 0.08em;
+  
+  color: #222222;
+  width: 90%;
+  margin: auto;
+}
+
+.why-text{
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 220%;
+  letter-spacing: 0.08em;
+  color: #000000;
+  padding-top: 40px;
+  position: absolute;
+  width: 52%;
+}
+.why-text-sp{
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 220%;
+  /* or 31px */
+
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.menu-explain-text{
+  font-family: YuGothic;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  /* or 31px */
+
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.flow-element{
+  height: 1400px;
+}
+.flow-text{
+  font-family: YuGothic;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 29px */
+
+  letter-spacing: 0.08em;
+
+  color: #000000;
+}
+.faq-q{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #222222;
+}
+.faq-a{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #C09932;
+}
+
+.faq-q-title{
+  font-family: YuGothic;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #222222;
+}
+
+.faq-a-text{
+  font-family: YuGothic;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  /* or 25px */
+  letter-spacing: 0.05em;
+  color: #222222;
+}
+
+.faq-a-bg{
+  background: #FAFAFA;
+  padding:24px;
+}
+
+.attention-line{
+  width: 100px;
+  height: 1px;
+  background-color: black;
+}
+
+.attention-title{
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+
+  letter-spacing: 0.08em;
+
+  color: #000000;
+}
+.attention-text{
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 220%;
+  /* or 31px */
+
+  letter-spacing: 0.08em;
+
+  color: #000000;
+}
+
+.information-text{
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 220%;
+  /* or 31px */
+
+  text-align: center;
+  letter-spacing: 0.2em;
+
+  color: #000000;
+}
+
+.information-text-sp{
+  font-family: YuMincho;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  /* or 25px */
+  
+  text-align: center;
+  letter-spacing: 0.08em;
+  
+  color: #000000;
+}
+.shop-lists{
+
+}
+.shop-list{
+  font-family: YuMincho;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+/* or 22px */
+margin: 10px 0px;
+letter-spacing: 0.08em;
+
+color: #000000;
+
+}
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
        #map {
